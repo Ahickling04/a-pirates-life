@@ -1,5 +1,28 @@
+body {
+  background-color: lightgrey;
+}
+
 .header {
     color: darkblue;
     font: bold;
     font-family: sans-serif;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navbar {
+  background-color: #333;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 8px 16px;
 }
